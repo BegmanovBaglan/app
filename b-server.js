@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var bodyParser = require('body-parser');
 var _ = require('underscore');
 
@@ -39,7 +39,7 @@ app.post('/student', function(req, res){
 		return res.status(400).send();
 	}
 
-	if()
+	
 	body.name = body.name.trim();
 	
 	if(body.course<=4 && body.course>=0){
